@@ -1,0 +1,27 @@
+
+X	java:S125~"<This block of commented-out lines of code should be removed.(Ì™ÊÙ8¸°‰°.
+k
+java:S1192B"NDefine a constant instead of duplicating this literal "No disponible" 4 times.(üÇÂè8¸°‰°.
+[
+java:S1117­"8Rename "nick" which hides the field declared at line 21.(¼¨®…ÿÿÿÿÿ8ËÖ‰‰°.
+a
+java:S2583Y"DChange this condition so that it does not always evaluate to "false"(úØæ­8¸°‰°.
+t
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(¨Œşÿÿÿÿ8¸°‰°.
+f
+java:S2583n"DChange this condition so that it does not always evaluate to "false"(ãúÿøÿÿÿÿ8¸°‰°.
+
+java:S1186_"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¦Œœ¢8¸°‰°.
+X	java:S125p"<This block of commented-out lines of code should be removed.(¼á¼8¸°‰°.
+
+java:S1186j"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¦Œœ¢8¸°‰°.
+f
+java:S2583s"DChange this condition so that it does not always evaluate to "false"(°ÑÎõşÿÿÿÿ8¸°‰°.
+X	java:S125C"<This block of commented-out lines of code should be removed.(¼á¼8¸°‰°.
+v	java:S116"URename this field "btn_agente" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ú†şÿÿÿÿ8ËÖ‰‰°.
+f
+java:S2583d"DChange this condition so that it does not always evaluate to "false"(âÈÔ—úÿÿÿÿ8¸°‰°.
+]	java:S125u"<This block of commented-out lines of code should be removed.(İí««ÿÿÿÿÿ8¸°‰°.
+
+java:S1186V"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¦Œœ¢8¸°‰°.
+]	java:S125H"<This block of commented-out lines of code should be removed.(İí««ÿÿÿÿÿ8¸°‰°.

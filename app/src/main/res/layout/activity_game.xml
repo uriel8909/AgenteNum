@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".GameActivity">
+
+    <ImageView
+        android:id="@+id/iv_agentes"
+        android:layout_width="46dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/background_light"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/npc" />
+
+    <Button
+        android:id="@+id/btnmenu"
+        android:layout_width="405dp"
+        android:layout_height="86dp"
+        android:layout_marginTop="16dp"
+        android:text="Selecciona tu Mision"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_agente" />
+
+    <Button
+        android:id="@+id/btn_agente"
+        android:layout_width="283dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.53"
+        app:layout_constraintStart_toEndOf="@+id/iv_agentes"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ListView
+        android:id="@+id/listaMenu"
+        android:layout_width="189dp"
+        android:layout_height="358dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="23dp"
+        android:background="#555555"
+        app:layout_constraintEnd_toStartOf="@+id/imageView4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnmenu" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="158dp"
+        android:layout_height="204dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginEnd="16dp"
+        android:background="#918F8F"
+        app:layout_constraintBottom_toBottomOf="@+id/listaMenu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/listaMenu"
+        app:layout_constraintTop_toTopOf="@+id/listaMenu"
+        app:layout_constraintVertical_bias="0.233"
+        app:srcCompat="@drawable/avatar1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

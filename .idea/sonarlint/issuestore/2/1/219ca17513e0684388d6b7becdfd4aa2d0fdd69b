@@ -1,0 +1,15 @@
+
+g	java:S116"SRename this field "btn_num1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÄŸûz
+m
+java:S3776'"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(¨Œşÿÿÿÿ
+—
+java:S1186/"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¦Œœ¢
+k	java:S116"QRename this field "et_res" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“²„Ÿÿÿÿÿÿ
+j	java:S116"URename this field "btn_enviar" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õš”•
+g	java:S116"RRename this field "res_usr" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜éŞ
+h	java:S116"SRename this field "btn_cora" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹«Íö
+o	java:S116"URename this field "btn_agemte" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ø·×œşÿÿÿÿ
+h	java:S116""SRename this field "res_usrr" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÛŸğ
+l	java:S116 "RRename this field "res_cor" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢‹“çûÿÿÿÿ
+m	java:S116"SRename this field "btn_num2" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ß‹ìšıÿÿÿÿ
+q	java:S116"WRename this field "btn_correcto" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”ï‰ğúÿÿÿÿ

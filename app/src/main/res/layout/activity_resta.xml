@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/binarybg"
+    tools:context=".GameActivity">
+
+    <TextView
+        android:id="@+id/tv_puntuacion4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="P U N T U A C I O N"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/btn_puntaje"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ib_cora" />
+
+    <Button
+        android:id="@+id/btn_puntaje"
+        android:layout_width="179dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="24dp"
+        android:hint="Puntaje"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ib_cora" />
+
+    <ImageView
+        android:id="@+id/iv_agentes"
+        android:layout_width="46dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/background_light"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/npc" />
+
+    <Button
+        android:id="@+id/btn_agente"
+        android:layout_width="283dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.53"
+        app:layout_constraintStart_toEndOf="@+id/iv_agentes"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_resta2"
+        android:layout_width="70dp"
+        android:layout_height="79dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginEnd="68dp"
+        android:background="@android:color/darker_gray"
+        android:text="-"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toStartOf="@+id/btn_num1"
+        app:layout_constraintTop_toBottomOf="@+id/ib_cora" />
+
+    <Button
+        android:id="@+id/btn_cora"
+        android:layout_width="79dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="100dp"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/ib_cora" />
+
+    <ImageButton
+        android:id="@+id/ib_cora"
+        android:layout_width="77dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="28dp"
+        android:padding="5sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_agentes"
+        app:srcCompat="@drawable/corazon" />
+
+    <ImageButton
+        android:id="@+id/ib_correcto"
+        android:layout_width="76dp"
+        android:layout_height="76dp"
+        android:layout_marginEnd="124dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btn_cora"
+        app:srcCompat="@drawable/correctas" />
+
+    <Button
+        android:id="@+id/btn_correcto"
+        android:layout_width="73dp"
+        android:layout_height="77dp"
+        android:layout_marginEnd="40dp"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/ib_correcto" />
+
+    <Button
+        android:id="@+id/btn_num1"
+        android:layout_width="124dp"
+        android:layout_height="144dp"
+        android:layout_marginTop="108dp"
+        android:layout_marginEnd="40dp"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ib_cora" />
+
+    <EditText
+        android:id="@+id/et_res"
+        android:layout_width="183dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="176dp"
+        android:background="?attr/colorButtonNormal"
+        android:ems="10"
+        android:hint="Tu respuesta"
+        android:inputType="phone"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn_enviar"
+        app:layout_constraintTop_toBottomOf="@+id/btn_num1" />
+
+    <Button
+        android:id="@+id/btn_enviar"
+        android:layout_width="149dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="32dp"
+        android:text="ENVIAR"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/et_res" />
+
+    <Button
+        android:id="@+id/btn_num2"
+        android:layout_width="124dp"
+        android:layout_height="144dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginEnd="40dp"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ib_cora" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

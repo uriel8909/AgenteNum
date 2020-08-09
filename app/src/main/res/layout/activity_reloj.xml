@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RelojActivity">
+
+    <TextView
+        android:id="@+id/tv_puntuacion3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="44dp"
+        android:text="P U N T U A C I O N"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@+id/btn_puntaje"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ib_cora" />
+
+    <Button
+        android:id="@+id/btn_puntaje"
+        android:layout_width="179dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="20dp"
+        android:hint="Puntaje"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_correcto" />
+
+    <ImageView
+        android:id="@+id/iv_agentes"
+        android:layout_width="46dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/background_light"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/npc" />
+
+    <Button
+        android:id="@+id/btn_agente"
+        android:layout_width="283dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="8dp"
+        android:text="CONTRARELOJ"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.53"
+        app:layout_constraintStart_toEndOf="@+id/iv_agentes"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_multi2"
+        android:layout_width="87dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="68dp"
+        android:background="@android:color/darker_gray"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="35sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_num1" />
+
+    <Button
+        android:id="@+id/btn_cora"
+        android:layout_width="77dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="15dp"
+        android:textSize="30sp"
+        app:layout_constraintStart_toEndOf="@+id/ib_cora"
+        app:layout_constraintTop_toTopOf="@+id/ib_cora" />
+
+    <Button
+        android:id="@+id/btn_correcto"
+        android:layout_width="73dp"
+        android:layout_height="77dp"
+        android:layout_marginEnd="28dp"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/ib_correcto" />
+
+    <ImageButton
+        android:id="@+id/ib_cora"
+        android:layout_width="77dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:padding="5sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_agentes"
+        app:srcCompat="@drawable/corazon" />
+
+    <ImageButton
+        android:id="@+id/ib_correcto"
+        android:layout_width="76dp"
+        android:layout_height="76dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toStartOf="@+id/btn_correcto"
+        app:layout_constraintTop_toTopOf="@+id/btn_cora"
+        app:srcCompat="@drawable/correctas" />
+
+    <Button
+        android:id="@+id/btn_num1"
+        android:layout_width="131dp"
+        android:layout_height="127dp"
+        android:layout_marginStart="240dp"
+        android:layout_marginTop="16dp"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_puntaje" />
+
+    <Button
+        android:id="@+id/btn_num2"
+        android:layout_width="127dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="16dp"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="@+id/btn_num1"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_num1" />
+
+    <Button
+        android:id="@+id/btn_enviar"
+        android:layout_width="168dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="2dp"
+        android:text="ENVIAR"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/et_res"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/et_res" />
+
+    <EditText
+        android:id="@+id/et_res"
+        android:layout_width="154dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="20dp"
+        android:background="?attr/colorButtonNormal"
+        android:ems="10"
+        android:hint="Tu respuesta"
+        android:importantForAutofill="no"
+        android:inputType="phone"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="@+id/btn_num2"
+        app:layout_constraintTop_toBottomOf="@+id/btn_num2" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="56dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_puntuacion3"
+        app:srcCompat="@drawable/iconfinder_time_5736354" />
+
+    <Button
+        android:id="@+id/btn_time"
+        android:layout_width="107dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="42dp"
+        android:hint="Tiempo"
+        app:layout_constraintStart_toEndOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/tv_puntuacion3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
